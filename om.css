@@ -1,0 +1,212 @@
+h1{
+    text-align: center;
+}
+
+html {
+    font-family: 'Asap', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Asap', sans-serif;
+}
+
+.active {
+    color: #F4AC67;
+}
+
+body {
+    margin:0;
+}
+a {
+
+    text-decoration: none;
+}
+
+
+
+/* Header */
+.menu {
+    margin: 0 30px 0 0;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
+    line-height: 80px;
+    clear: both;
+}
+
+
+
+.menu a:hover {
+    color: #F4AC67;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 80px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: white;
+}
+
+#toggle {
+    display: none;
+}
+
+.logo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;     
+}
+
+.menu a {
+    display: block;
+    margin: 0; 
+    background-color: white;
+    color: black;
+}
+
+    #toggle:checked + .menu {
+        display: block;
+
+    }
+}
+.navwrapper {
+    text-align: right;
+    min-height: 80px;
+    line-height: 80px;
+    height: auto;
+    background-color: #6BB7CE;
+}
+
+
+
+/*content css */
+
+.contentbodywrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 2em;
+    
+}
+
+.bodywrapper img {
+    margin-top: -30px;
+    max-height: 400px;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.samarbejdspartnereomos {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 30px;
+    grid-gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2.2em;
+    text-align: center;
+    }
+.samarbejdspartnereomos img {
+    height: auto;
+   width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+        .samarbejdspartnereomos {
+            grid-template-columns: 1fr 1fr;
+}
+}
+    
+    
+/*foooter css*/
+
+.footerwrap {
+    padding: 30px 30px 30px 55px;
+    background-color: #20445B;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    padding: 5px 0px;
+}
+
+.footernaviul a {
+    color: white;
+}
+
+.footernaviul a:hover {
+    color: #F4AC67;
+}
+
+.copyrightsection {
+    text-align: center;
+    background-color: #15374C;
+    padding: 30px;
+    color: white;
+}
+    
+@media only screen and (max-width: 1100px) {
+    .footerwrap {
+        grid-template-columns: 1fr
+    }
+}
+
+.socialfooter h3 {
+    color: white;
+}
+
+
+
+.socialiconsfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 130px;
+    color: #20445B;
+}
+.iconbackgroundcolor {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
